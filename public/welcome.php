@@ -58,7 +58,7 @@
 	<div id="headerwrap">
 	    <div class="container">
 			<div class="row">
-				<div class="col-lg-6 col-lg-offset-3">
+				<div class="headContents col-lg-6 col-lg-offset-3">
 					<div class="avatar">
                     	<img alt="" src=/img/headshot.png>
                 	</div>
@@ -288,5 +288,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="/js/bootstrap.js" ></script>
+	<script src="js/welcome.js"></script>
   </body>
 </html>
