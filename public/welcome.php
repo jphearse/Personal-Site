@@ -15,7 +15,7 @@
 
     <!-- Custom styles for this template -->
     <link href="/css/welcome.css" rel="stylesheet">
-    <link href="/css/font.css" rel="stylesheet">
+    <!-- <link href="/css/font.css" rel="stylesheet"> -->
    
 
 
@@ -60,10 +60,10 @@
 			<div class="row">
 				<div class="col-lg-6 col-lg-offset-3">
 					<div class="avatar">
-                    	<img alt="" src=/img/meedited.jpg>
+                    	<img alt="" src=/img/headshot.png>
                 	</div>
 					<h1 class="about">Joe Phearse</h1>
-					<h3 class="about">Jphearse@gmail.com</h3>
+					<a href="mailto:jphearse@gmail.com" target="_top"><h3 class="about">Jphearse@gmail.com</h3></a>
 				</div>
 			</div><!--/row -->
 	    </div> <!-- /container -->
@@ -104,18 +104,20 @@
 				<p><strong>The University of Texas at San Antonio</strong></strong></p>
 				<p><em><strong>San Antonio, Texas</strong> </em></p>
 				<div id="textbox">
-				
-					<p class="alignleft1"><strong>M.A. in Education,</strong> <em>Concentration in Instructional Technology</em></p>
+
+					<p class="alignleft1"><strong>M.A. Education,</strong></p>
 				
 					<p class="alignright1">August 2015 - Present</p>
-				
+
 				</div>
 				
-				
 				<div style="clear: both;"></div>
+
+				<div class="alignleft1 indent"><em>-Instructional Technology</em></div><br><br>
+
 				<div id="textbox">
 				
-					<p class="alignleft1"><strong>B.A. in Economics</strong></p>
+					<p class="alignleft1"><strong>B.A. Economics</strong></p>
 				
 				
 					<p class="alignright1">May 2014 - August 2015</p>
@@ -220,7 +222,7 @@
 				<a href="/weather_map.html" target="_blank"><img src="/img/pizza-slice.jpg" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="/pizza_form.php" target="_blank"><img src="/img/pizza-slice.jpg" class="img-responsive"></a>
+				<a href="/index-simple.html" target="_blank"><img src="/img/pizza-slice.jpg" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
 				<a href="/pizza_form.php" target="_blank"><img src="/img/pizza-slice.jpg" class="img-responsive"></a>
@@ -283,7 +285,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     
 
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="/js/bootstrap.js" ></script>
   </body>
