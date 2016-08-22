@@ -94,12 +94,8 @@ body > div.navbar.navbar-default.navbar-fixed-top > div {
 	color: white;
     text-shadow: 2px 2px 4px #000000;
 }
-
-.alignleft {
-	text-align: left;
-}
-.alignright {
-	text-align: right;
+.indent{
+	text-indent: 40px;
 }
 .alignleft1 {
 	float: left;
@@ -163,42 +159,12 @@ max-width: 150px;
   
 }
 
-/*
-.navbar-brand {
-	font-weight: 700;
-}
 
-.navbar-default .navbar-nav > li > a {
-	color: #1abc9c;
-}
-
-.navbar-default {
-	background-color: transparent;
-	border-color: transparent;
-}
-
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: yellow;
-	background-color: transparent;
-	border-bottom: 2px solid #1abc9c;
-}
-
-.navbar-default .navbar-nav > li > a {
-	color: #1abc9c;
-	font-size: 1.5em;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-	text-decoration: underline;
-	color: #1abc9c;
-	
-}
-*/
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
-#works{
-	background-color: ;
+#about > div {
+	height: 2100px;
 }
 
 #headerwrap {
@@ -262,7 +228,7 @@ max-width: 150px;
 	margin-left: 10px;
 }
 
-#workwrap {	
+/*#workwrap {	
 	background: url(../img/work.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
@@ -281,7 +247,7 @@ max-width: 150px;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+}*/
 
 #workwrap h1 {
 	color:#ffffff;
@@ -296,28 +262,6 @@ max-width: 150px;
 	font-weight: 400;
 	color: #ffffff
 }
-
-/*#aboutwrap {	
-	background: url(/img/sabw.jpg) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 250px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 550px;
-	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-*/
 
 
 
