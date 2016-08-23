@@ -51,25 +51,25 @@
     }
     #red{
         opacity: .5;
-        background: url(/img/gryf.png) no-repeat center;
+        background: url(/img/Gryf.png) no-repeat center;
         background-color: red;
         margin: 10px;
     }
     #blue{
         opacity: .5;
-        background: url(/img/raven.png) no-repeat center;
+        background: url(/img/Raven.png) no-repeat center;
         background-color: blue;
         margin: 10px;
     }
     #green{
         opacity: .5;
-        background: url(/img/slyt.png) no-repeat center;
+        background: url(/img/Slyt.png) no-repeat center;
         background-color: green;
         margin: 10px;
     }
     #yellow{
         opacity: .5;
-        background: url(/img/huff.png) no-repeat center;
+        background: url(/img/Huff.png) no-repeat center;
         background-color: yellow;
         margin: 10px;
     }
