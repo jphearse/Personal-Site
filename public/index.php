@@ -151,8 +151,8 @@
 					<li>Communicates with staff members storewide to better serve customers</li>
 				</ul>
 				<div id="textbox">
-					<p class="alignleft1 col-sm-8 col-xs-6"><strong>Guest Services Representative</strong></p>
-					<p class="alignright1 col-sm-4 col-xs-4">September 2011 - August 2012</p>
+					<p class="alignleft1 col-sm-6 col-xs-6"><strong>Guest Services Representative</strong></p>
+					<p class="alignright1 col-sm-6 col-xs-4">September 2011 - August 2012</p>
 				</div>
 				<div style="clear: both;"></div>
 				<p class="job-location"><em>Westwood Cinema 6, Brenham, Texas</em></p>
@@ -181,10 +181,10 @@
 					<p class="alignright1">Summer 2014</p>
 				</div>
 				<div style="clear: both;"></div>
-				<p class="recog"><em>University of Texas at San Antonio, San Antonio, Texas</em></p>
+				<p class="recog"><em>The University of Texas at San Antonio, San Antonio, Texas</em></p>
 				<div id="textbox">
-					<p class="alignleft1"><strong>Store Champion (Employee of the Month)</strong></p>
-					<p class="alignright1">April 2015, February 2016</p>
+					<p class="alignleft1 col-sm-6 col-xs-6"><strong>Store Champion (Employee of the Month)</strong></p>
+					<p class="alignright1 col-sm-6 col-xs-4">April 2015, February 2016</p>
 				</div>
 				<div style="clear: both;"></div>
 				<p class="recog"><em>Carmax, San Antonio, Texas</em></p>
@@ -216,22 +216,13 @@
 			<h1>My Portfolio</h1>
 			
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="/calculator.html" target="_blank"><img src="/img/pizza-slice.jpg" class="img-responsive"></a>
+				<a href="/calculator.html" target="_blank"><img src="/img/calculatorLogo.jpg" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="/weather_map.html" target="_blank"><img src="/img/pizza-slice.jpg" class="img-responsive"></a>
+				<a href="/weather_map.html" target="_blank"><img src="/img/weatherLogo.jpg" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="/index-simple.html" target="_blank"><img src="/img/pizza-slice.jpg" class="img-responsive"></a>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="/pizza_form.php" target="_blank"><img src="/img/pizza-slice.jpg" class="img-responsive"></a>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="/pizza_form.php" target="_blank"><img src="/img/pizza-slice.jpg" class="img-responsive"></a>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="/pizza_form.php" target="_blank"><img src="/img/pizza-slice.jpg" class="img-responsive"></a>
+				<a href="/index-simple.html" target="_blank"><img src="/img/simpleSimonLogo.jpg" class="img-responsive"></a>
 			</div>
 
 		</div><!--/row -->
