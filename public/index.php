@@ -212,17 +212,17 @@
 <div id="social">
 		<div class="container">
 			<div class="row centered">
-				<div class="col-lg-3">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 					<a href="https://github.com/jphearse" target="_blank"><i class="fa fa-github"></i></a>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 					<a href="https://www.facebook.com/joe.phearse" target="_blank"><i class="fa fa-facebook"></i></a>
 				</div>
 				
-				<div class="col-lg-3">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 					<a href="https://www.linkedin.com/in/joe-phearse-70162bbb?trk=nav_responsive_tab_profile" target="_blank"><i class="fa fa-linkedin"></i></a>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 					<a href="https://www.instagram.com/jphearse/?hl=en" target="_blank"><i class="fa fa-instagram" ></i></a>
 				</div>
 				
