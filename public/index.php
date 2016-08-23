@@ -35,9 +35,9 @@
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
        
-        <li><a href="#headerwrap">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#works">Portfolio</a></li>
+        <li><a id="Link" href="#headerwrap">Home</a></li>
+        <li><a id="secondLink" href="#about">About Me</a></li>
+        <li><a id="thirdLink" href="#works">Portfolio</a></li>
        
       </ul>
     </div><!--/.nav-collapse -->
