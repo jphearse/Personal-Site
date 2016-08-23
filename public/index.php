@@ -222,7 +222,7 @@
 				<a href="/weather_map.html" target="_blank"><img src="/img/weatherLogo.jpg" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="/index-simple.html" target="_blank"><img src="/img/simpleSimonLogo.jpg" class="img-responsive"></a>
+				<a href="/simple.html" target="_blank"><img src="/img/simpleSimonLogo.jpg" class="img-responsive"></a>
 			</div>
 
 		</div><!--/row -->
