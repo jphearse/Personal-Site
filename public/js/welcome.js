@@ -8,4 +8,25 @@
 	function rise(){
 		$(".headContents").animate({"opacity":"1","margin-top":"-=30px"}, 1000);
 	}
+
+	$('#Link').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+	});
+
+	$('#secondLink').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+	});
+
+	$('#thirdLink').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+	});
 })();
