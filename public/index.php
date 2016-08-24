@@ -54,7 +54,6 @@
                 	</div>
 					<h1 class="about">Joe Phearse</h1>
 					<a href="mailto:jphearse@gmail.com" target="_top"><h3 class="about">Jphearse@gmail.com</h3></a>
-					<a href="tel:+1-979-661-0013" target="_top"><h3 class="about">(979) 661-0013</h3></a>
 				</div>
 			</div><!--/row -->
 	    </div> <!-- /container -->
@@ -236,15 +235,17 @@
 	<div id="footerwrap">
 		<div class="container">
 			<div class="row centered">
-				<div class="col-lg-4">
+				<div class="col-lg-3">
 					<p><b>Codeup Student</b></p>
 				</div>
-			
-				<div class="col-lg-4">
+				<div class="col-lg-3">
 					<p>San Antonio</p>
 				</div>
-				<div class="col-lg-4">
-					<p>Jphearse@gmail.com</p>
+				<div class="col-lg-3">
+					<a href="mailto:jphearse@gmail.com" target="_top"><p>Jphearse@gmail.com</p></a>
+				</div>
+				<div class="col-lg-3">
+					<a href="tel:+1-979-661-0013"><p>(979) 661-0013</p></a>
 				</div>
 			</div>
 		</div>
