@@ -173,7 +173,19 @@ max-width: 150px;
 	text-align: left;
 	padding: 0px;
 }
-
+@media (min-width:768px) {
+    section {
+        background-image: url(/img/saretro.jpg);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        min-height: 725px;
+    }
+}
 #headerwrap {
 	background-image: url(/img/saretro.jpg);
 	margin-top: -70px;
