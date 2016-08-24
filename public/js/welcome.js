@@ -9,6 +9,13 @@
 		$(".headContents").animate({"opacity":"1","margin-top":"-=30px"}, 1000);
 	}
 
+	$('#nameLink').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+	});
+
 	$('#Link').click(function(){
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top
