@@ -175,7 +175,9 @@ max-width: 150px;
 }
 
 #headerwrap {
-	background: url(/img/saretro.jpg) no-repeat center top;
+	background-image: url(/img/saretro.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
