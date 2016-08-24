@@ -54,6 +54,7 @@
                 	</div>
 					<h1 class="about">Joe Phearse</h1>
 					<a href="mailto:jphearse@gmail.com" target="_top"><h3 class="about">Jphearse@gmail.com</h3></a>
+					<a href="tel:+1-979-661-0013" target="_top"><h3 class="about">(979) 661-0013</h3></a>
 				</div>
 			</div><!--/row -->
 	    </div> <!-- /container -->
