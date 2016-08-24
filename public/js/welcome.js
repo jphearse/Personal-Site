@@ -1,4 +1,7 @@
 (function() {
+
+////////////////rise and fade in header//////////////////////////////////
+
 	$(".headContents").css("margin-top", "30px");
 	$(".headContents").css("opacity", "0");
 	rise();
@@ -8,6 +11,8 @@
 	function rise(){
 		$(".headContents").animate({"opacity":"1","margin-top":"-=30px"}, 1000);
 	}
+
+///////////////smooth scrolling//////////////////////////////////////////
 
 	$('#nameLink').click(function(){
     $('html, body').animate({
