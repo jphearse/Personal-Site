@@ -12,12 +12,6 @@
 		$(".headContents").animate({"opacity":"1","margin-top":"-=30px"}, 1000);
 	}
 
-
-	$(window).scroll(function() {
-  var scrolledY = $(window).scrollTop();
-  $('#headwrap').css('background-position', 'left ' + ((scrolledY)) + 'px');
-});
-
 ///////////////smooth scrolling//////////////////////////////////////////
 
 	$('#nameLink').click(function(){
