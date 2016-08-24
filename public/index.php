@@ -30,7 +30,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#headerwrap">Joe Phearse</a>
+      <a class="navbar-brand" id="nameLink" href="#headerwrap">Joe Phearse</a>
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
@@ -65,9 +65,9 @@
 	<div class="container">
 		<div class="row centered mt mb">
 			<div class="col-lg-8 col-lg-offset-2">
-
+				<hr>
 				<h1>About Me</h1>
-
+				<hr>
 				<div>
 					<img id="pic-of-me" src="/img/collage.jpg">	<br><br>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -193,8 +193,9 @@
 	<section id="works">
 	<div class="container">
 		<div class="row centered mt mb">
+			<hr>
 			<h1>My Portfolio</h1>
-			
+			<hr>
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
 				<a href="/calculator.html" target="_blank"><img src="/img/logo-calc.png" class="img-responsive"></a>
 			</div>
