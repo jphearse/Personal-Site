@@ -179,7 +179,7 @@ max-width: 150px;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
-	
+	background-attachment:scroll;
 	background-position: center center;
 	min-height: 750px;
 	width: 100%;
