@@ -174,7 +174,7 @@ max-width: 150px;
 	padding: 0px;
 }
 
-@media screen and (min-width: 480px) {
+@media (min-width: 480px) {
     #headerwrap {
         background-image: url(/img/saretro.jpg);
 	margin-top: -70px;
