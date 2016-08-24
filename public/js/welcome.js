@@ -12,6 +12,9 @@
 		$(".headContents").animate({"opacity":"1","margin-top":"-=30px"}, 1000);
 	}
 
+
+
+
 ///////////////smooth scrolling//////////////////////////////////////////
 
 	$('#nameLink').click(function(){
