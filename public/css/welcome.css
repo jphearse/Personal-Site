@@ -90,6 +90,8 @@ body > div.navbar.navbar-default.navbar-fixed-top > div {
 	text-align: left;
 }
 
+
+
 .about{
 	color: white;
     text-shadow: 2px 2px 4px #000000;
@@ -173,7 +175,7 @@ max-width: 150px;
 }
 
 #headerwrap {
-	background: url(/img/saretro.jpg) no-repeat center top;
+	background: url(/img/mountain.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
