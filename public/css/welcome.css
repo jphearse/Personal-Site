@@ -6,41 +6,16 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 
-::-moz-selection {
-    background: #f2c2c9;
-    color: #a4003a;
-    text-shadow: none;
-}
-
-::selection {
-    background: #16a085;
-    color: #a4003a;
-    text-shadow: none;
-}
-
-/*
- * A better looking default horizontal rule
- */
-
- hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
 .centered {
 	text-align: center
 }
 
 .mt {
-	margin-top: 80px;
+	margin-top: 40px;
 }
 
 .mb {
-	margin-bottom: 80px;
+	margin-bottom: 40px;
 }
 
 /* ==========================================================================
@@ -63,8 +38,15 @@ h1, h2, h3, h4, h5, h6 {
     
 
 }
-
-
+ 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
 
 body > div.navbar.navbar-default.navbar-fixed-top > div {
 	margin-right: 10px;
@@ -236,26 +218,6 @@ max-width: 150px;
 	margin-left: 10px;
 }
 
-/*#workwrap {	
-	background: url(../img/work.jpg) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 250px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 650px;
-	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}*/
 
 #workwrap h1 {
 	color:#ffffff;
