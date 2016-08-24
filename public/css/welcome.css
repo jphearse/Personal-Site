@@ -174,33 +174,13 @@ max-width: 150px;
 	padding: 0px;
 }
 
-@media (min-width: 480px) {
-    #headerwrap {
-        background-image: url(/img/saretro.jpg);
-	margin-top: -70px;
-	padding-top: 250px;
-	text-align:center;
-	background-position: center center;
-	min-height: 750px;
-	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    }
-}
 #headerwrap {
 	background-image: url(/img/saretro.jpg);
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
-	background-attachment: fixed;
+	/*background-attachment: fixed;*/
 	background-position: center center;
 	min-height: 750px;
 	width: 100%;
