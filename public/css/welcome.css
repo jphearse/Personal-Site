@@ -177,7 +177,7 @@ max-width: 150px;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
-	background-attachment: relative;
+	background-attachment: fixed;
 	background-position: center center;
 	min-height: 750px;
 	width: 100%;
@@ -277,4 +277,5 @@ max-width: 150px;
 
 .gallery img:hover {
 	opacity: 0.4;
+	transform: rotate(-10deg);
 }
