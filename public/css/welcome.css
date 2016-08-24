@@ -279,5 +279,4 @@ max-width: 150px;
 
 .gallery img:hover {
 	opacity: 0.4;
-	transform: rotate(-10deg);
 }
