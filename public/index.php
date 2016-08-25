@@ -21,49 +21,54 @@
 
   <body>
 
-<div class="container-fixed">
-<div class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" id="nameLink" href="#headerwrap">Joe Phearse</a>
-    </div>
-    <div class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-       
-        <li><a id="Link" href="#headerwrap">Home</a></li>
-        <li><a id="secondLink" href="#about">About Me</a></li>
-        <li><a id="thirdLink" href="#works">Portfolio</a></li>
-       
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div>
-</div>
-</div>
-<!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
+	<div class="container-fixed">
+	<div class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" id="nameLink" href="#headerwrap">Joe Phearse</a>
+	    </div>
+	    <div class="collapse navbar-collapse">
+	      <ul class="nav navbar-nav">
+	       
+	        <li><a id="Link" href="#headerwrap">Home</a></li>
+	        <li><a id="secondLink" href="#about">About Me</a></li>
+	        <li><a id="thirdLink" href="#works">Portfolio</a></li>
+	       
+	      </ul>
+	    </div><!--/.nav-collapse -->
+	  </div>
+	</div>
+	</div>
 
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
-      </div>
-      <div class="modal-body">
-        <p><img src="/img/headshot2.jpg"></p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
+	<!-- Modal -->
+	<div id="myModal" class="modal fade" role="dialog">
+	  <div class="modal-dialog">
 
-  </div>
-</div>
+	    <!-- Modal content-->
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	        <h4 class="modal-title">Joe Phearse</h4>
+	      </div>
+	      <div class="modal-body">
+	        <p><img src="/img/headshot2.jpg"></p>
+	        <p id="modalAbout">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	        consequat.</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+
+	  </div>
+	</div>
 
 
 
@@ -73,6 +78,7 @@
 				<div class="headContents col-lg-6 col-lg-offset-3">
 					<div class="avatar">
                     	<img alt="picOfMe" id="aboutMeHeader" data-toggle="modal" data-target="#myModal" src=/img/headshot.png>
+                    	<p class="text"></p>
                 	</div>
 					<h1 class="about">Joe Phearse</h1>
 					<a href="mailto:jphearse@gmail.com" target="_top"><h3 class="about">Jphearse@gmail.com</h3></a>
@@ -93,12 +99,7 @@
 				<hr>
 				<div id="firstAnimation">
 					<img id="pic-of-me" src="/img/collage.jpg">	<br><br>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Growing up in my hometown of Brenham, Texas, I had dreams and aspirations to be a basketball player. That did not work out, I figure, due to my lack of height. As I got to high school, I found some interests involving technology and math. I assumed that this meant I was supposed to be an electrical engineer of some sort. But as college got closer, I was pointed in the direction of Computer Science , which sounded much more appealing to me. However, after only one semester in my Computer Science major, at The University of Houston, I switched my major to Economics due to fact that I felt like I was getting something that I did not enjoy. After two years at UH I transferred to The University of Texas at San Antonio, but this was not before I got first introduction to HTML in an IT class I was enrolled in. When I got to UTSA I finished my Economics degree in a years time, then started my Master’s of Education degree, where I found HTML in one of my graduate courses along with CSS and Javascript. I rediscovered how much I enjoyed websites. I believe that I enjoyed the coding aspect of websites, because it is challenging in a way that I do not want to quit or give up until I solve the problem. Which I feel like can speak to both my strength and weaknesses; being persistent in my problem solving, but not recognizing when I should take a break and come back to the problem later with a fresher mind. Now knowing that I still enjoy coding website, I began to search for jobs in that field. I found job opportunities, I just did not have the actual skills needed for the positions. After a lot of searching and weighing my options, I found Codeup, which I believe will give me those skills I need. Now that I'm in Codeup, I have found that I still enjoy HTML, CSS, and Javascript. After I graduate from the Codeup, I would love to be working in setting that I could utilize my university experience with my Codeup experience. </p>
 				</div>
 				<br>
 
@@ -215,6 +216,44 @@
 		</div><!--/row -->
 	</div><!--/container -->
 	</section>
+
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <div class="well">
+                    <div id="myCarousel" class="carousel fdi-Carousel slide">
+                     <!-- Carousel items -->
+                        <div class="carousel fdi-Carousel slide" id="eventCarousel" data-interval="0">
+                            <div class="carousel-inner onebyone-carosel">
+                                <div class="item active">
+                                    <div class="col-md-4">
+                                        <a href="/calculator.html" target="_blank"><img src="/img/logo-calc.png" class="img-responsive"></a>
+                                        <div class="text-center">1</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-md-4">
+                                        <a href="/weather_map.html" target="_blank"><img src="/img/logo-weather-map.png" class="img-responsive"></a>
+                                        <div class="text-center">2</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-md-4">
+                                        <a href="/simple.html" target="_blank"><img src="/img/logo-simple-simon.png" class="img-responsive"></a>
+                                        <div class="text-center">3</div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <a class="left carousel-control" href="#eventCarousel" data-slide="prev"></a>
+                            <a class="right carousel-control" href="#eventCarousel" data-slide="next"></a>
+                        </div>
+                        <!--/carousel-inner-->
+                    </div><!--/myCarousel-->
+                </div><!--/well-->
+            </div>
+        </div>
+    </div>
 
 	<div id="social">
 		<div class="container">
