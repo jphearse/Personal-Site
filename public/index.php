@@ -226,19 +226,19 @@
                         <div class="carousel fdi-Carousel slide" id="eventCarousel" data-interval="0">
                             <div class="carousel-inner onebyone-carosel">
                                 <div class="item active">
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 col-xs-4">
                                         <a href="/calculator.html" target="_blank"><img src="/img/logo-calc.png" class="img-responsive"></a>
                                         <div class="text-center">1</div>
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 col-xs-4">
                                         <a href="/weather_map.html" target="_blank"><img src="/img/logo-weather-map.png" class="img-responsive"></a>
                                         <div class="text-center">2</div>
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 col-xs-4">
                                         <a href="/simple.html" target="_blank"><img src="/img/logo-simple-simon.png" class="img-responsive"></a>
                                         <div class="text-center">3</div>
                                     </div>
