@@ -32,7 +32,7 @@ $("#firstAnimation").hide();
 // $("#secondAnimation").hide();
 $(window).on('scroll', function() {
     var y_scroll_pos = window.pageYOffset;
-    var scroll_pos_test = $("#aboutMeHeader").offset().top;             // set to whatever you want it to be
+    var scroll_pos_test = 200;             // set to whatever you want it to be
 
     if(y_scroll_pos > scroll_pos_test) {
     	$("#firstAnimation").show();
