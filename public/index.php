@@ -50,7 +50,7 @@
 			<div class="row">
 				<div class="headContents col-lg-6 col-lg-offset-3">
 					<div class="avatar">
-                    	<img alt="" src=/img/headshot.png>
+                    	<img alt="picOfMe" id="aboutMeHeader" src=/img/headshot.png>
                 	</div>
 					<h1 class="about">Joe Phearse</h1>
 					<a href="mailto:jphearse@gmail.com" target="_top"><h3 class="about">Jphearse@gmail.com</h3></a>
