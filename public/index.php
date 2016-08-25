@@ -217,44 +217,36 @@
 	</div><!--/container -->
 	</section>
 
-    <div class="container">
-        <div class="row">
-            <div class="span12">
-                <div class="well">
-                    <div id="myCarousel" class="carousel fdi-Carousel slide">
-                     <!-- Carousel items -->
-                        <div class="carousel fdi-Carousel slide" id="eventCarousel" data-interval="0">
-                            <div class="carousel-inner onebyone-carosel">
-                                <div class="item active">
-                                    <div class="col-md-4 col-xs-4">
-                                        <a href="/calculator.html" target="_blank"><img src="/img/logo-calc.png" class="img-responsive"></a>
-                                        <div class="text-center">1</div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="col-md-4 col-xs-4">
-                                        <a href="/weather_map.html" target="_blank"><img src="/img/logo-weather-map.png" class="img-responsive"></a>
-                                        <div class="text-center">2</div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="col-md-4 col-xs-4">
-                                        <a href="/simple.html" target="_blank"><img src="/img/logo-simple-simon.png" class="img-responsive"></a>
-                                        <div class="text-center">3</div>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            <a class="left carousel-control" href="#eventCarousel" data-slide="prev"></a>
-                            <a class="right carousel-control" href="#eventCarousel" data-slide="next"></a>
-                        </div>
-                        <!--/carousel-inner-->
-                    </div><!--/myCarousel-->
-                </div><!--/well-->
+	<div class="bs-example">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>   
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+            <div class="item active">
+               <a href="/calculator.html" target="_blank"><img src="/img/logo-calc.png" class="img-responsive"></a>
+            </div>
+            <div class="item">
+                <a href="/weather_map.html" target="_blank"><img src="/img/logo-weather-map.png" class="img-responsive"></a>
+            </div>
+            <div class="item">
+                <a href="/simple.html" target="_blank"><img src="/img/logo-simple-simon.png" class="img-responsive"></a>
             </div>
         </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
     </div>
-
+</div>
+	
 	<div id="social">
 		<div class="container">
 			<div class="row centered">
