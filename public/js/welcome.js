@@ -28,17 +28,17 @@
 //     }
 // });
 
-$("#firstAnimation").hide();
-// $("#secondAnimation").hide();
-$(window).on('scroll', function() {
-    var y_scroll_pos = window.pageYOffset;
-    var scroll_pos_test = 200;             // set to whatever you want it to be
+// $("#firstAnimation").hide();
+// // $("#secondAnimation").hide();
+// $(window).on('scroll', function() {
+//     var y_scroll_pos = window.pageYOffset;
+//     var scroll_pos_test = 200;             // set to whatever you want it to be
 
-    if(y_scroll_pos > scroll_pos_test) {
-    	$("#firstAnimation").show();
-        $("#firstAnimation").addClass("option animated slideInRight");
-    }
-});
+//     if(y_scroll_pos > scroll_pos_test) {
+//     	$("#firstAnimation").show();
+//         $("#firstAnimation").addClass("option animated slideInRight");
+//     }
+// });
 // $(window).on('scroll', function() {
 //     var y_scroll_pos = window.pageYOffset;
 //     var scroll_pos_test = 900;             // set to whatever you want it to be
