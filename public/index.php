@@ -44,13 +44,35 @@
   </div>
 </div>
 </div>
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p><img src="/img/headshot2.jpg"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
 
 	<div id="headerwrap">
 	    <div class="container">
 			<div class="row">
 				<div class="headContents col-lg-6 col-lg-offset-3">
 					<div class="avatar">
-                    	<img alt="picOfMe" id="aboutMeHeader" src=/img/headshot.png>
+                    	<img alt="picOfMe" id="aboutMeHeader" data-toggle="modal" data-target="#myModal" src=/img/headshot.png>
                 	</div>
 					<h1 class="about">Joe Phearse</h1>
 					<a href="mailto:jphearse@gmail.com" target="_top"><h3 class="about">Jphearse@gmail.com</h3></a>
