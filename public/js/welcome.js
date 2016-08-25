@@ -15,16 +15,26 @@
 
 
 
-$("#first").hide();
+$("#firstAnimation").hide();
+// $("#secondAnimation").hide();
 $(window).on('scroll', function() {
     var y_scroll_pos = window.pageYOffset;
-    var scroll_pos_test = 400;             // set to whatever you want it to be
+    var scroll_pos_test = 200;             // set to whatever you want it to be
 
     if(y_scroll_pos > scroll_pos_test) {
-    	$("#first").show();
-        $("#first").addClass("option animated bounceInLeft");
+    	$("#firstAnimation").show();
+        $("#firstAnimation").addClass("option animated bounceInLeft");
     }
 });
+// $(window).on('scroll', function() {
+//     var y_scroll_pos = window.pageYOffset;
+//     var scroll_pos_test = 900;             // set to whatever you want it to be
+
+//     if(y_scroll_pos > scroll_pos_test) {
+//     	$("#secondAnimation").show();
+//         $("#secondAnimation").addClass("option animated slideInRight");
+//     }
+// });
 
 ///////////////smooth scrolling//////////////////////////////////////////
 
