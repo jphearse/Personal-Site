@@ -13,20 +13,20 @@
 	}
 
 
-$("#firstAnimation").hide(); // hide the fixed navbar initially
+// $("#firstAnimation").hide(); // hide the fixed navbar initially
 
-var topofDiv = $("#aboutMeHeader").offset().top - 50; //gets offset of header
-var height = $("#aboutMeHeader").outerHeight(); //gets height of header
+// var topofDiv = $("#aboutMeHeader").offset().top - 50; //gets offset of header
+// var height = $("#aboutMeHeader").outerHeight(); //gets height of header
 
-$(window).scroll(function(){
-    if($(window).scrollTop() > (topofDiv + height)){
-       $("#firstAnimation").show();
-       $("#firstAnimation").addClass("option animated slideInRight");
-    }
-    else{
-       $("#firstAnimation").hide();
-    }
-});
+// $(window).scroll(function(){
+//     if($(window).scrollTop() > (topofDiv + height)){
+//        $("#firstAnimation").show();
+//        $("#firstAnimation").addClass("option animated slideInRight");
+//     }
+//     else{
+//        $("#firstAnimation").hide();
+//     }
+// });
 
 // $("#firstAnimation").hide();
 // // $("#secondAnimation").hide();
