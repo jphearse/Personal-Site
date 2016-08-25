@@ -13,32 +13,32 @@
 	}
 
 
-$("#firstAnimation").hide(); // hide the fixed navbar initially
+// $("#firstAnimation").hide(); // hide the fixed navbar initially
 
-var topofDiv = $("#aboutMeHeader").offset().top; //gets offset of header
-var height = $("#aboutMeHeader").outerHeight(); //gets height of header
+// var topofDiv = $("#aboutMeHeader").offset().top; //gets offset of header
+// var height = $("#aboutMeHeader").outerHeight(); //gets height of header
 
-$(window).scroll(function(){
-    if($(window).scrollTop() > ((topofDiv-50) + height)){
-       $("#firstAnimation").show();
-       $("#firstAnimation").addClass("option animated slideInRight");
-    }
-    else{
-       $("#firstAnimation").hide();
-    }
-});
-
-// $("#firstAnimation").hide();
-// // $("#secondAnimation").hide();
-// $(window).on('scroll', function() {
-//     var y_scroll_pos = window.pageYOffset;
-//     var scroll_pos_test = 200;             // set to whatever you want it to be
-
-//     if(y_scroll_pos > scroll_pos_test) {
-//     	$("#firstAnimation").show();
-//         $("#firstAnimation").addClass("option animated slideInRight");
+// $(window).scroll(function(){
+//     if($(window).scrollTop() > (topofDiv + height)){
+//        $("#firstAnimation").show();
+//        $("#firstAnimation").addClass("option animated slideInRight");
+//     }
+//     else{
+//        $("#firstAnimation").hide();
 //     }
 // });
+
+$("#firstAnimation").hide();
+// $("#secondAnimation").hide();
+$(window).on('scroll', function() {
+    var y_scroll_pos = window.pageYOffset;
+    var scroll_pos_test = $("#aboutMeHeader").offset().top;             // set to whatever you want it to be
+
+    if(y_scroll_pos > scroll_pos_test) {
+    	$("#firstAnimation").show();
+        $("#firstAnimation").addClass("option animated slideInRight");
+    }
+});
 // $(window).on('scroll', function() {
 //     var y_scroll_pos = window.pageYOffset;
 //     var scroll_pos_test = 900;             // set to whatever you want it to be
