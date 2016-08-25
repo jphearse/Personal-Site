@@ -23,7 +23,7 @@ $(window).on('scroll', function() {
 
     if(y_scroll_pos > scroll_pos_test) {
     	$("#firstAnimation").show();
-        $("#firstAnimation").addClass("option animated bounceInLeft");
+        $("#firstAnimation").addClass("option animated slideInRight");
     }
 });
 // $(window).on('scroll', function() {
