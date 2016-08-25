@@ -66,6 +66,7 @@
 		<div class="row centered mt mb">
 			<div class="col-lg-8 col-lg-offset-2">
 				<hr>
+				<!-- ////////////////about me////////////////////// -->
 				<h1>About Me</h1>
 				<hr>
 				<div id="firstAnimation">
@@ -77,48 +78,33 @@
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
-
 				<br>
 
+				<!-- ////////////Education ////////////////////////-->
 				<h2>Education</h2><hr>
-				<div id="secondAnimation">
 				<p><strong>The University of Texas at San Antonio</strong></strong></p>
 				<p><em><strong>San Antonio, Texas</strong> </em></p>
 				<div id="textbox">
-
 					<p class="alignleft1"><strong>M.A. Education,</strong></p>
-				
 					<p class="alignright1">August 2015 - Present</p>
-
 				</div>
-				
 				<div style="clear: both;"></div>
-
 				<div class="alignleft1 indent"><em>-Instructional Technology</em></div><br><br>
-
 				<div id="textbox">
-				
 					<p class="alignleft1"><strong>B.A. Economics</strong></p>
-				
-				
 					<p class="alignright1">May 2014 - August 2015</p>
-					
 				</div>
 				<div style="clear: both;"></div>
 				<p><strong>The University of Houston</strong></p>
 				<p><em><strong>Houston, Texas</strong> </em></p>
 				<div id="textbox">
-				
 					<p class="alignleft1">Computer Science</p>
-					
-					
 					<p class="alignright1">August 2012 - May 2014</p>
 					</div>
-				
 				<div style="clear: both;"></div>
-</div>
+
+				<!--//////////////work experience//////////////////// -->
 				<h2>Work Experience</h2><hr>
-		
 				<div id="textbox">
 					<p class="alignleft1"><strong>Lead Inventory</strong></p>
 					<p class="alignright1">August 2014 - July 2016</p>
@@ -156,6 +142,7 @@
 					company</li>
 				</ul>
 
+				<!-- ////////////////Recognition///////////////////// -->
 				<h2>Recognition</h2><hr>
 				<div id="textbox">
 					<p class="alignleft1"><strong>Dean's List</strong></p>
@@ -170,8 +157,7 @@
 				<div style="clear: both;"></div>
 				<p class="recog"><em>Carmax, San Antonio, Texas</em></p>
 
-
-
+				<!-- /////////////skills/////////////////////////// -->
 				<h2>Skills</h2><hr>
 				<ul>
 					<li><strong>Computer:</strong> experienced with HTML, CSS, JavaScript, Apache Subversion (SVN), SCORM, and GIMP, proficient in Microsoft Office</li>
@@ -182,13 +168,10 @@
 
 			</div>
 
-
-
-
 		</div><!--row -->
 	</div><!--container -->
 	</section>
-<!--Resume-->
+	<!--Resume-->
 
 		
 	<section id="works">
@@ -211,7 +194,7 @@
 	</div><!--/container -->
 	</section>
 
-<div id="social">
+	<div id="social">
 		<div class="container">
 			<div class="row centered">
 				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
@@ -251,18 +234,10 @@
 			</div>
 		</div>
 	</div><!--/footerwrap -->
-	
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="/js/bootstrap.js" ></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
 	<script src="js/welcome.js"></script>
   </body>
 </html>
