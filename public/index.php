@@ -9,7 +9,7 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 
     <title>Joe Phearse</title>
-<link rel="stylesheet" type="text/css" href="/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="/css/animate.css">
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -35,7 +35,7 @@
 	    <div class="collapse navbar-collapse">
 	      <ul class="nav navbar-nav">
 	       
-	        <li><a id="Link" href="#headerwrap">Home</a></li>
+	        <li><a id="link" href="#headerwrap">Home</a></li>
 	        <li><a id="secondLink" href="#about">About Me</a></li>
 	        <li><a id="thirdLink" href="#works">Portfolio</a></li>
 	       
@@ -97,9 +97,10 @@
 				<!-- ////////////////about me////////////////////// -->
 				<h1>About Me</h1>
 				<hr>
-				<div id="firstAnimation">
+				<div>
 					<img id="pic-of-me" src="/img/collage.jpg">	<br><br>
-					<p>Growing up in my hometown of Brenham, Texas, I had dreams and aspirations to be a basketball player. That did not work out, I figure, due to my lack of height. As I got to high school, I found some interests involving technology and math. I assumed that this meant I was supposed to be an electrical engineer of some sort. But as college got closer, I was pointed in the direction of Computer Science , which sounded much more appealing to me. However, after only one semester in my Computer Science major, at The University of Houston, I switched my major to Economics due to fact that I felt like I was getting something that I did not enjoy. After two years at UH I transferred to The University of Texas at San Antonio, but this was not before I got first introduction to HTML in an IT class I was enrolled in. When I got to UTSA I finished my Economics degree in a years time, then started my Master’s of Education degree, where I found HTML in one of my graduate courses along with CSS and Javascript. I rediscovered how much I enjoyed websites. I believe that I enjoyed the coding aspect of websites, because it is challenging in a way that I do not want to quit or give up until I solve the problem. Which I feel like can speak to both my strength and weaknesses; being persistent in my problem solving, but not recognizing when I should take a break and come back to the problem later with a fresher mind. Now knowing that I still enjoy coding website, I began to search for jobs in that field. I found job opportunities, I just did not have the actual skills needed for the positions. After a lot of searching and weighing my options, I found Codeup, which I believe will give me those skills I need. Now that I'm in Codeup, I have found that I still enjoy HTML, CSS, and Javascript. After I graduate from the Codeup, I would love to be working in setting that I could utilize my university experience with my Codeup experience. </p>
+					<p class="paragraph indent">Growing up in my hometown of Brenham, Texas, I had dreams and aspirations to be a basketball player. That did not work out, I figure, due to my lack of height. As I got to high school, I found some interests involving technology and math. I assumed that this meant I was supposed to be an electrical engineer of some sort. But as college got closer, I was pointed in the direction of Computer Science , which sounded much more appealing to me. However, after only one semester in my Computer Science major, at The University of Houston, I switched my major to Economics due to fact that I felt like I was getting something that I did not enjoy. After two years at UH I transferred to The University of Texas at San Antonio, but this was not before I got first introduction to HTML in an IT class I was enrolled in. When I got to UTSA I finished my Economics degree in a years time, then started my Master’s of Education degree, where I found HTML in one of my graduate courses along with CSS and Javascript. I rediscovered how much I enjoyed websites.</p>
+					<p class="paragraph indent"> I believe that I enjoyed the coding aspect of websites, because it is challenging in a way that I do not want to quit or give up until I solve the problem. Which I feel like can speak to both my strength and weaknesses; being persistent in my problem solving, but not recognizing when I should take a break and come back to the problem later with a fresher mind. Now knowing that I still enjoy coding website, I began to search for jobs in that field. I found job opportunities, I just did not have the actual skills needed for the positions. After a lot of searching and weighing my options, I found Codeup, which I believe will give me those skills I need. Now that I'm in Codeup, I have found that I still enjoy HTML, CSS, and Javascript. After I graduate from the Codeup, I would love to be working in setting that I could utilize my university experience with my Codeup experience. </p>
 				</div>
 				<br>
 
@@ -218,35 +219,35 @@
 	</section>
 
 	<div class="bs-example">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Carousel indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>   
-        <!-- Wrapper for carousel items -->
-        <div class="carousel-inner">
-            <div class="item active">
-               <a href="/calculator.html" target="_blank"><img src="/img/logo-calc.png" class="img-responsive"></a>
-            </div>
-            <div class="item">
-                <a href="/weather_map.html" target="_blank"><img src="/img/logo-weather-map.png" class="img-responsive"></a>
-            </div>
-            <div class="item">
-                <a href="/simple.html" target="_blank"><img src="/img/logo-simple-simon.png" class="img-responsive"></a>
-            </div>
-        </div>
-        <!-- Carousel controls -->
-        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="carousel-control right" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
-    </div>
-</div>
-	
+	    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+	        <!-- Carousel indicators -->
+	        <ol class="carousel-indicators">
+	            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	            <li data-target="#myCarousel" data-slide-to="1"></li>
+	            <li data-target="#myCarousel" data-slide-to="2"></li>
+	        </ol>   
+	        <!-- Wrapper for carousel items -->
+	        <div class="carousel-inner">
+	            <div class="item active">
+	               <a href="/calculator.html" target="_blank"><img src="/img/logo-calc.png" class="img-responsive"></a>
+	            </div>
+	            <div class="item">
+	                <a href="/weather_map.html" target="_blank"><img src="/img/logo-weather-map.png" class="img-responsive"></a>
+	            </div>
+	            <div class="item">
+	                <a href="/simple.html" target="_blank"><img src="/img/logo-simple-simon.png" class="img-responsive"></a>
+	            </div>
+	        </div>
+	        <!-- Carousel controls -->
+	        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+	            <span class="glyphicon glyphicon-chevron-left"></span>
+	        </a>
+	        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+	            <span class="glyphicon glyphicon-chevron-right"></span>
+	        </a>
+	    </div>
+	</div>
+
 	<div id="social">
 		<div class="container">
 			<div class="row centered">
