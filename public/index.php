@@ -77,8 +77,8 @@
 			<div class="row">
 				<div class="headContents col-lg-6 col-lg-offset-3">
 					<div class="avatar">
+                    	 <div class="overlay"></div>
                     	<img alt="picOfMe" id="aboutMeHeader" data-toggle="modal" data-target="#myModal" src=/img/headshot.png>
-                    	<p class="text"></p>
                 	</div>
 					<h1 class="about">Joe Phearse</h1>
 					<a href="mailto:jphearse@gmail.com" target="_top"><h3 class="about">Jphearse@gmail.com</h3></a>
