@@ -77,5 +77,10 @@
     return false;
 	});
 
+// $('.avatar').mouseover(function () {
+//     $('.overlay').show();
+// }).mouseout(function () {
+//     $('.overlay').hide();
+// });
 
 })();
