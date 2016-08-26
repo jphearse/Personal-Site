@@ -5,12 +5,6 @@
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-.modal-body{
-	text-align: center;
-}
-#modalAbout{
-	text-align: left;
-}
 .centered {
 	text-align: center
 }
@@ -24,28 +18,10 @@
 }
 
 
-.avatar:hover {
-	cursor: pointer;
-	
- }
 /* ==========================================================================
    General styles
    ========================================================================== */
 
-.carousel{
-    background: white;
-    margin-top: 20px;
-    height: 400px;
-}
-.carousel .item img{
-    margin: 0 auto; /* Align slide image horizontally center */
-}
-.bs-example{
-	margin: 20px;
-}
-#myCarousel > a.carousel-control{
-	background: white;
-}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -59,8 +35,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
     color: #4a4a4a;
-    
-
 }
  
 hr {
@@ -76,6 +50,12 @@ body > div.navbar.navbar-default.navbar-fixed-top > div {
 	margin-right: 10px;
 }
 
+.modal-body{
+	text-align: center;
+}
+#modalAbout{
+	text-align: left;
+}
 .avatar img {
     width: 200px;
     height: 200px;
@@ -84,6 +64,11 @@ body > div.navbar.navbar-default.navbar-fixed-top > div {
     border-radius: 50%;
     border: 5px solid rgba(255,255,255,0.5);
 }
+
+.avatar:hover {
+	cursor: pointer;
+	
+ }
 
 #pic-of-me {
 	width: 100%;
@@ -95,8 +80,6 @@ body > div.navbar.navbar-default.navbar-fixed-top > div {
 .left{
 	text-align: left;
 }
-
-
 
 .about{
 	color: white;
@@ -173,6 +156,9 @@ h3 a
 	padding: 0px;
 }
 
+.paragraph{
+	text-align: left;
+}
 
 #headerwrap {
 	background-image: url(/img/sabw.jpg);
@@ -250,7 +236,20 @@ h3 a
 	color: #ffffff
 }
 
-
+.carousel{
+    background: white;
+    margin-top: 20px;
+    height: 400px;
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.bs-example{
+	margin: 20px;
+}
+#myCarousel > a.carousel-control{
+	background: white;
+}
 
 /* Gallery */
 .gallery {
