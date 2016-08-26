@@ -203,7 +203,7 @@
 			<hr>
 			<h1>My Portfolio</h1>
 			<hr>
-			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+			<!-- <div class="col-lg-4 col-md-4 col-sm-4 gallery">
 				<a href="/calculator.html" target="_blank"><img src="/img/logo-calc.png" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
@@ -212,7 +212,7 @@
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
 				<a href="/simple.html" target="_blank"><img src="/img/logo-simple-simon.png" class="img-responsive"></a>
 			</div>
-
+ -->
 		</div><!--/row -->
 	</div><!--/container -->
 	</section>
