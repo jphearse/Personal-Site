@@ -70,6 +70,22 @@ body > div.navbar.navbar-default.navbar-fixed-top > div {
 	
  }
 
+
+/*#headerwrap > div > div > div > div > div
+{
+	
+
+	border-radius: 100px;
+	width: 200px;
+	height: 200px;
+	background-color: black;
+	opacity: 0.5;
+    position: absolute;
+
+
+}
+*/
+
 #pic-of-me {
 	width: 100%;
     height: auto;
