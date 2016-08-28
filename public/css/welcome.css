@@ -65,26 +65,49 @@ body > div.navbar.navbar-default.navbar-fixed-top > div {
     border: 5px solid rgba(255,255,255,0.5);
 }
 
-.avatar:hover {
-	cursor: pointer;
-	
+.avatar{
+	height: 200px;
+	width: 200px;
+	margin: auto;
+}
+.avatar:hover span.text-content {
+  	opacity: 1;
+	cursor: pointer;	
  }
 
-
-/*#headerwrap > div > div > div > div > div
-{
-	
-
-	border-radius: 100px;
-	width: 200px;
-	height: 200px;
-	background-color: black;
-	opacity: 0.5;
-    position: absolute;
-
-
+span.text-content {
+	background: rgba(0,0,0,0.5);
+	color: white;
+	cursor: pointer;
+	display: table;
+	height: 150px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 150px;
 }
-*/
+
+span.text-content span {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 300px;
+}
+span.text-content {
+	margin: 0 auto;
+	border-radius: 100px;
+	background: rgba(0,0,0,0.5);
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	cursor: pointer;
+	display: inline-block;
+	height: 200px;
+	left: 0;
+	right: 0;
+	top: 0;
+	width: 200px;
+	opacity: 0;
+}
+
 
 #pic-of-me {
 	width: 100%;
