@@ -54,7 +54,7 @@ body > div.navbar.navbar-default.navbar-fixed-top > div {
 	text-align: center;
 }
 #modalAbout{
-	text-align: left;
+	text-align: justify;
 }
 .avatar img {
     width: 200px;
@@ -90,13 +90,14 @@ span.text-content {
 span.text-content span {
 	text-align: center;
 	vertical-align: middle;
-	line-height: 330px;
+	line-height: 320px;
 }
 span.text-content {
 	margin: 0 auto;
 	border-radius: 100px;
 	background: rgba(0,0,0,0.5);
 	color: white;
+	font-size: 25px;
 	font-family: 'Montserrat', sans-serif;
 	cursor: pointer;
 	display: inline-block;
