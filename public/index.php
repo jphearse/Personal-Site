@@ -219,7 +219,6 @@
 	</div><!--/container -->
 	</section>
 
-	<div class="bs-example">
 	    <div id="myCarousel" class="carousel slide" data-ride="carousel">
 	        <!-- Carousel indicators -->
 	        <ol class="carousel-indicators">
@@ -247,7 +246,7 @@
 	            <span class="glyphicon glyphicon-chevron-right"></span>
 	        </a>
 	    </div>
-	</div>
+	
 
 	<div id="social">
 		<div class="container">
