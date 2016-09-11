@@ -282,6 +282,12 @@ h3 a
 #myCarousel > a.carousel-control{
 	background: white;
 }
+#myCarousel > a.carousel-control.left > span{
+	text-shadow: 0 4px 7px rgba(0,0,0,.6);
+}
+#myCarousel > a.carousel-control.right > span{
+	text-shadow: 0 4px 7px rgba(0,0,0,.6);
+}
 
 /* Gallery */
 .gallery {
