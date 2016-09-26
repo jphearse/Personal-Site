@@ -57,10 +57,7 @@
 	      </div>
 	      <div class="modal-body">
 	        <p><img src="/img/headshot2.jpg"></p>
-	        <p id="modalAbout">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	        consequat.</p>
+	        <p id="modalAbout">Web developer with experience in HTML, CSS, Twitter Bootstrap, JavaScript, jQuery, PHP, and MySQL. Web development goal is to create clear, effective, and reusable code.</p>
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
