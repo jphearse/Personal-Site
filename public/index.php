@@ -107,11 +107,11 @@
 				<p><strong>Codeup</strong></strong></p>
 				<p><em><strong>San Antonio, Texas</strong> </em></p>
 				<div id="textbox">
-					<p class="alignleft1"><strong>Full Stack Web Development</strong></p>
-					<p class="alignright1">July 2016 - November 2016</p>
+					<p class="alignleft1 col-sm-6 col-xs-6"><strong>Full Stack Web Development</strong></p>
+					<p class="alignright1 col-sm-6 col-xs-4">July 2016 - November 2016</p>
 				</div>
 				<div style="clear: both;"></div>
-				<div class="alignleft1 indent" style="text-align: left;"><em>-Completing 500+ hours of hands on training in modern software technologies with a focus on Linux, Apache, MySQL, PHP, Laravel, HTML, CSS, JavaScript, jQuery, and Twitter Bootstrap.</em></div><br><br>
+				<div class="alignleft1 indent" "><em>-Completing 500+ hours of hands on training in modern software technologies with a focus on Linux, Apache, MySQL, PHP, Laravel, HTML, CSS, JavaScript, jQuery, and Twitter Bootstrap.</em></div><br><br>
 				<p><strong>The University of Texas at San Antonio</strong></strong></p>
 				<p><em><strong>San Antonio, Texas</strong> </em></p>
 				<div id="textbox">
