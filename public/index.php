@@ -7,8 +7,8 @@
     <meta name="description" content="Joe Phearse Personal Site">
     <meta name="author" content="Joe Phearse">
     <meta name="keywords" content="Joe, Phearse, joe phearse, personal, site, web developer, HTML, CSS, Javascript">
+	<link rel="icon" href="/img/jp.ico">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-
     <title>Joe Phearse</title>
 	<link rel="stylesheet" type="text/css" href="/css/animate.css">
     <!-- Bootstrap core CSS -->
